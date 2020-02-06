@@ -19,7 +19,7 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 @Service
 public class AwsService {
 
-	//private AmazonS3 amazonS3;
+	private AmazonS3 amazonS3;
 	
 	
 	@Value("${aws.access.key.id}")
