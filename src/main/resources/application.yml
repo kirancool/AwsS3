@@ -1,0 +1,5 @@
+amazonProperties:
+    aws.access.key.id = 
+    aws.access.key.secret =
+    aws.region = 
+    aws.s3.bucket =

@@ -1,0 +1,5 @@
+amazonProperties:
+    aws.access.key.id = AKIATMKHB4FTJPMMR6WD
+    aws.access.key.secret = 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
+    aws.region = Global
+    aws.s3.bucket =kiru
