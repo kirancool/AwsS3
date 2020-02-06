@@ -36,7 +36,7 @@ public class AwsService {
 		
 		BasicAWSCredentials awsCreds = new BasicAWSCredentials(this.awskeyId,this.awsScreetKey);
 		AmazonS3 s3 = AmazonS3Client.builder()
-			    .withRegion("ap-south-1")
+			    .withRegion("add your region")
 			    .withCredentials(new AWSStaticCredentialsProvider(awsCreds)).build();	
 
 		
